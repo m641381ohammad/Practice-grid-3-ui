@@ -1,0 +1,27 @@
+@media only screen and (max-width: 1090px) {
+    .body {
+        background-image: url('images/bg-mobile.svg');
+        background-position: center;
+        background-size: cover;
+    }
+    .container {
+        flex-wrap: wrap;
+        padding: 15px;
+    }
+    .left-item {
+        max-width: 100%;
+        margin: 0;
+    }
+    .text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .sociol-media {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
